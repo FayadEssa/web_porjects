@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contant.css">
+    <title>GOLDEN HOTAL</title>
+</head>
+<body>
+    <div id="navbar">
+        <img src="imgs/logo.png" alt="the logo">
+        <nav>
+            <ul>
+                <li><a href="main.html">HOME</a></li>
+                <li><a href="main.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="pricing.html">PRICING</a></li>
+                <li><a href="#contant">CONTANT</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <h2>BOOK NOW</h2>
+        <form method="POST">
+            <div class="form-group">
+                <input type="text" id="customer_name" name="customer_name" placeholder="Name" required>
+            </div>
+
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+
+            <div class="form-group">
+                <input type="tel" id="phone" placeholder="Phone number">
+            </div>
+
+            <div class="form-group">
+                <label for="service_type">OUR SERVICES:</label>
+                <select name="service_type" required>
+                    <option value="room">ROOM</option>
+                    <option value="masag">MASAG</option>
+                    <option value="suite">SUITE</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <button type="submit">BOOK</button>
+        </form>
+    </div>
+</body>
+</html>

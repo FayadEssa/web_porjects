@@ -1,0 +1,51 @@
+#Services {
+    padding: 100px 0 75px;
+    background:url("imgs/3.jpg") center/cover no-repeat;
+    font-family: "Quicksand", sans-serif;
+}
+.the-service{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.service-body .service-text{
+    position: absolute;
+    display: inline;
+    margin-left: 26px;
+    margin-right: 193px;
+    margin-top: 52px;
+}
+body::before{
+    content: "";
+    width: 100%;
+    height: 275.5%;
+    position: absolute;
+    background: rgb(0, 0, 0, 0.6);
+}
+
+*{
+    z-index: 1;
+}
+
+.section-header{
+    margin-bottom: 2rem;
+}
+.media-service {
+    margin: 25px 0 36px;
+    padding: 20px;
+    padding-left: 86px;
+    position: relative;
+}
+
+.service-body img{
+    width: 50%;
+}
+
+.head-service-text {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #D3AF02;
+}
+.service-text p{
+    color:gray;
+}
